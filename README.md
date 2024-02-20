@@ -1,2 +1,2 @@
 # Web-Application--pizza-ordering
-#HTMAL
+#In this web application we use html,css and javascript
