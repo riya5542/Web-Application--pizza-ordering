@@ -67,7 +67,7 @@
                     <input type="email" name="email" required class="box" placeholder="enter your email" maxlength="20">
                     <input type="password" name="pass" required class="box" placeholder="enter your password"
                         maxlength="20">
-                    <input type="submit" value="login now" name="login" required class="btn">
+                    <input type="submit" value="login now" name="login" required class="btn" onclick="lo()">
 
                 </form>
                 <form action="" method="post">
@@ -493,6 +493,9 @@ function register(){
    document.getElementById("user").innerHTML="You Sucessfully register";
    
 }
+function lo(){
+    document.getElementById("user").innerHTML="...........Welcome.........";
+}    
 function o(){
     alert("Sucessfully Order")
 }    
