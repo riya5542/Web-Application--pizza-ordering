@@ -359,7 +359,7 @@
 
 
         </div>
-        <input type="submit" value="Order Now" class="tnb" name="order" >
+        <input type="submit" value="Order Now" class="tnb" name="order" onclick="o()">
 
 
 
@@ -493,6 +493,9 @@ function register(){
    document.getElementById("user").innerHTML="You Sucessfully register";
    
 }
+function o(){
+    alert("Sucessfully Order")
+}    
 
 let account = document.getElementById('user-form');
 document.addEventListener("click",(e) => {
